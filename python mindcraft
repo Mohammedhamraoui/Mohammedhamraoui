@@ -1,1 +1,15 @@
-"my project python"
+
+x= int(input("enter a number: "))
+y= int(input("enter a number: "))
+opération = [x * y, x + y, x - y, x / y, x % y]
+for o in opération:
+  print(o) 
+print("the result is :" , x * y)
+
+b = x
+a = y
+if a >= b:
+  print("a is greater than b or they are equal")
+elif a <= b:
+  print("b is greater than a or they are equal")
+
